@@ -28,6 +28,38 @@ require_once __DIR__ .  "/Models/products.php";
                                 <p class="card-text">
                                     prezzo: <?php echo $prodotto->prezzo ?> $
                                 </p>
+
+                                <?php foreach ($prodotto as $var => $value) { ?>
+                                    <p class="card-text">
+                                        <?php echo "$var è $value\n" ?>
+                                    </p>
+
+                                <?php  }  ?>
+
+                                <!-- <?php if ($prodotto->ingrediente) { ?>
+                                    <p class="card-text">
+                                        Peso: <?php echo  $prodotto->peso ?> kg
+                                    </p>
+                                    <p class="card-text">
+                                        ingrediente principale: <?php echo $prodotto->ingrediente ?>
+                                    </p>
+
+
+                                <?php  }  ?> -->
+
+
+                                <!-- <?php if ($prodotto->grandezza) { ?>
+                                    <p class="card-text">
+                                        grandezza: <?php echo  $prodotto->grandezza ?> cm
+                                    </p>
+                                    <p class="card-text">
+                                        materiale principale: <?php echo $prodotto->materiale ?>
+                                    </p>
+
+
+                                <?php  }  ?> -->
+
+
                             </div>
                         </div>
                     </div>
