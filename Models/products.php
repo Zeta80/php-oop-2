@@ -57,11 +57,18 @@ class Cuccia extends Product
     }
 }
 
-$cibocane = new Cibo("cane", "Cibo in scatolame", "12", "https://img.petyoo.it/guide/cani/cibo/pesce/forza_10_maintenance_medium_al_pesce.jpg.pagespeed.ce.ms2__P5Gm1.jpg", "15", "pesce");
+$cibocane = new Cibo("cane", "Cibo in scatolame", "12", "https://www.pacopetshop.it/9470-thickbox_default/aequilibriavet-mini-cibo-umido-per-cani.jpg", "15", "pesce");
 var_dump($cibocane);
 
-$giocogatto = new Gioco("gatto", "Gioco in animale", "45", "https://img.petyoo.it/guide/cani/cibo/pesce/forza_10_maintenance_medium_al_pesce.jpg.pagespeed.ce.ms2__P5Gm1.jpg", "blu", "gomma");
+$giocogatto = new Gioco("gatto", "Gioco in animale", "45", "https://www.jonicamangimi.com/1368-thickbox_default/palline-bitorzolute-gomma-gioco-per-gatti-set-da-4-pz-cm-35.jpg", "blu", "gomma");
 var_dump($giocogatto);
 
-$cucciacane = new Cuccia("cane", "cuccia in scatolame", "120", "https://img.petyoo.it/guide/cani/cibo/pesce/forza_10_maintenance_medium_al_pesce.jpg.pagespeed.ce.ms2__P5Gm1.jpg", "gialla", "stoffa", "120mm");
+$cucciacane = new Cuccia("cane", "cuccia in scatolame", "120", "https://m.media-amazon.com/images/I/71-tsDiw8iL._AC_SY355_.jpg", "gialla", "stoffa", "120mm");
 var_dump($cucciacane);
+
+$prodotti = [
+    $cibocane,
+    $giocogatto,
+    $cucciacane
+];
+var_dump($prodotti);
