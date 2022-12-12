@@ -32,12 +32,12 @@ require_once __DIR__ .  "/Models/products.php";
 
 
 
-                                <!-- <?php foreach ($prodotto as $var => $value) { ?>
+                                <?php foreach ($prodotto as $var => $value) { ?>
                                     <p class="card-text">
-                                        <?php echo "$var è $value\n" ?>
+                                        <?php echo "$var : $value\n" ?>
                                     </p>
 
-                                <?php  }  ?> -->
+                                <?php  }  ?>
 
 
 

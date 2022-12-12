@@ -77,7 +77,7 @@ $cibocane = new Cibo("cane", "Cibo in scatolame", "12", "https://www.pacopetshop
 $giocogatto = new Gioco("gatto", "Gioco in animale", "45", "https://www.jonicamangimi.com/1368-thickbox_default/palline-bitorzolute-gomma-gioco-per-gatti-set-da-4-pz-cm-35.jpg", "blu", "gomma");
 
 
-$cucciacane = new Cuccia("cane", "cuccia in scatolame", "120", "https://m.media-amazon.com/images/I/71-tsDiw8iL._AC_SY355_.jpg", "gialla", "stoffa", "120mm");
+$cucciacane = new Cuccia(" cane", "cuccia in scatolame", "120", "https://m.media-amazon.com/images/I/71-tsDiw8iL._AC_SY355_.jpg", "gialla", "stoffa", "120mm");
 
 
 
