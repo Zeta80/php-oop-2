@@ -26,29 +26,29 @@ require_once __DIR__ .  "/Models/products.php";
                             <div class="card-body">
                                 <h2><?php echo $prodotto->nome; ?></h2>
                                 <p class="card-text">
-                                    prezzo: <?php echo $prodotto->prezzo ?> $
+                                    prezzo: <?php echo $prodotto->getPrice() ?> $
                                 </p>
 
-                                <?php foreach ($prodotto as $var => $value) { ?>
+
+
+
+                                <!-- <?php foreach ($prodotto as $var => $value) { ?>
                                     <p class="card-text">
                                         <?php echo "$var è $value\n" ?>
                                     </p>
 
-                                <?php  }  ?>
-
-                                <!-- <?php if ($prodotto->ingrediente) { ?>
-                                    <p class="card-text">
-                                        Peso: <?php echo  $prodotto->peso ?> kg
-                                    </p>
-                                    <p class="card-text">
-                                        ingrediente principale: <?php echo $prodotto->ingrediente ?>
-                                    </p>
-
-
                                 <?php  }  ?> -->
 
 
-                                <!-- <?php if ($prodotto->grandezza) { ?>
+
+
+                                <!-- foreach ($nested as $val) {
+
+                                echo $val . ' ';
+                                } -->
+
+
+                                <!-- <?php if ($prodotto->grandezza != NULL) { ?>
                                     <p class="card-text">
                                         grandezza: <?php echo  $prodotto->grandezza ?> cm
                                     </p>

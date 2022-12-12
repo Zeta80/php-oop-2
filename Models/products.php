@@ -14,6 +14,11 @@ class Product
         $this->prezzo = $prezzo;
         $this->immagine = $immagine;
     }
+
+    public function getPrice()
+    {
+        echo $this->prezzo;
+    }
 }
 
 class Cibo extends Product
