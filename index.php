@@ -22,7 +22,7 @@ require_once __DIR__ .  "/Models/products.php";
                 <?php foreach ($prodotti as $prodotto) { ?>
                     <div class="col">
                         <div class="card">
-                            <img src="<?php echo $prodotto->immagine; ?>" class="card-img-top" alt="...">
+                            <img src="<?php echo $prodotto->getImage(); ?>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h2><?php echo $prodotto->nome; ?></h2>
                                 <p class="card-text">

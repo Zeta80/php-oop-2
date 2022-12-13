@@ -3,8 +3,8 @@ class Product
 {
     public $animale;
     public $nome;
-    public $prezzo;
-    public $immagine;
+    protected $prezzo;
+    protected $immagine;
 
 
     public function __construct(string $animale, string $nome, int $prezzo, string $immagine)
@@ -18,6 +18,11 @@ class Product
     public function getPrice()
     {
         echo $this->prezzo;
+    }
+
+    public function getImage()
+    {
+        echo $this->immagine;
     }
 }
 
